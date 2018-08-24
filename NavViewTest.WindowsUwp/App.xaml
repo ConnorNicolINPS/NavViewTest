@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="NavViewTest.WindowsUwp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ResourceDictionary>
+            <AcrylicBrush x:Key="NavigationViewDefaultPaneBackground" BackgroundSource="Backdrop" TintColor="LightBlue" TintOpacity=".6"/>
+            <AcrylicBrush x:Key="NavigationViewTopPaneBackground" BackgroundSource="Backdrop" TintColor="LightBlue" TintOpacity=".6"/>
+            <AcrylicBrush x:Key="NavigationViewExpandedPaneBackground" BackgroundSource="HostBackdrop" TintColor="LightBlue" TintOpacity=".8"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
